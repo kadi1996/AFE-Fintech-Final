@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FinTech.AI</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .form-container h1,
+        .form-container p {
+            text-align: center;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container label {
+            margin-top: 10px;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="date"],
+        .form-container input[type="number"],
+        .form-container select {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .form-container input[type="radio"],
+        .form-container input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .form-container button {
+            background-color: #1263C6;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #104ea0;
+        }
+
+        .form-container #additionalQuestions {
+            margin-top: 10px;
+        }
+
+        #recommendation {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #1263C6;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .recommendation-text {
+            text-align: left;
+        }
+
+        .stock-name {
+            text-decoration: underline;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">Fintech<span class="text-dark">.</span>AI</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="engine.html" class="nav-item nav-link">AI Engine</a>
+
+                        <!-- Benutzerinfo -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/Avatar.jpg" alt="Avatar"
+                                    style="width:30px; height:30px; border-radius:50%;"> Ali
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Welcome to our AI Engine</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">AI Engine</li>
+                        </ol>
+
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <body>
+        <div class="container form-container">
+            <div class="welcome-section" style="display: flex; align-items: center;margin-bottom: 20px">
+                <img src="/Webservice/html/img/Avatar.jpg" alt="Ali"
+                    style="width: 200px; height: 200px; border-radius: 10px; margin-right: 15px;">
+                <div>
+                    <h2>Welcome Ali, find out the latest stock trends!</h2>
+                    <p>Let us know which sources our engine should consider!</p>
+                </div>
+            </div>
+            <form id="sourceSelectionForm">
+                <div>
+                    <input type="checkbox" id="bbc" name="source" value="BBC">
+                    <label for="bbc">BBC</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cnn" name="source" value="CNN">
+                    <label for="cnn">CNN</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="stockcharts" name="source" value="Stockcharts">
+                    <label for="cnn">Stockcharts</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Marketwatch" name="source" value="Marketwatch">
+                    <label for="cnn">Marketwatch</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="WSJ" name="source" value="WSJ">
+                    <label for="cnn">WSJ</label>
+                </div>
+                <button type="submit">Get Stocks</button>
+            </form>
+            <div id="stocksInfo"></div>
+        </div>
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                        <a href="index.html" class="d-inline-block mb-3">
+                            <h1 class="text-white">FinTech<span class="text-primary">.</span>AI</h1>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>St.-Georgen-Platz 2, 8401 Winterthur,
+                            Switzerland
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+41 58 934 68 68</p>
+                        <p><i class="fa fa-envelope me-3"></i>info@fintechai.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <!--                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Career</a>
+                </div> -->
+
+                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                        <h5 class="text-white mb-4">Our Services</h5>
+                        <a class="btn btn-link" href="">AI-Based Financial Analysis</a>
+                        <a class="btn btn-link" href="">Investment Strategy</a>
+                        <a class="btn btn-link" href="">Predictive Analysis</a>
+                        <a class="btn btn-link" href="">Risk Management</a>
+                        <a class="btn btn-link" href="">Customized Financial Solutions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">FinTech.AI</a>, All Right Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <!-- Code -->
+        <script>
+            document.getElementById('sourceSelectionForm').onsubmit = function (event) {
+                event.preventDefault();
+
+                let selectedSources = Array.from(document.querySelectorAll('#sourceSelectionForm input[type="checkbox"]:checked')).map(checkbox => checkbox.value);
+
+                selectedSources.forEach(source => {
+                    console.log(source);
+                    // Laden der Hauptdatei
+                    $.ajax({
+                        url: `/Webservice/html/top3/${source}.csv`,
+                        dataType: "text",
+                        success: function (data) {
+                            Papa.parse(data, {
+                                header: true,
+                                complete: function (results) {
+                                    var parsedData = results.data;
+                                    displayStocks(parsedData, source, true);
+                                }
+                            });
+                        }
+                    });
+
+                    // Laden der Bottom-Datei
+                    if (["CNN", "WSJ", "Stockcharts"].includes(source)) {
+                        $.ajax({
+                            url: `/Webservice/html/top3/${source}_bottom.csv`,
+                            dataType: "text",
+                            success: function (data) {
+                                Papa.parse(data, {
+                                    header: true,
+                                    complete: function (results) {
+                                        var parsedData = results.data;
+                                        displayStocks(parsedData, source, false);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+
+
+            }
+            function displayStocks(data, source, isMain) {
+                var stocksInfoDiv = document.getElementById('stocksInfo');
+                var sourceDiv = document.getElementById(source.toLowerCase() + 'Recommendations');
+
+                if (!sourceDiv) {
+                    sourceDiv = document.createElement('div');
+                    sourceDiv.id = source.toLowerCase() + 'Recommendations';
+                    sourceDiv.innerHTML = `<h3>For ${source} we recommend:</h3><p class="recommendation-text"></p>`;
+                    stocksInfoDiv.appendChild(sourceDiv);
+                }
+
+                var recommendationsText = sourceDiv.querySelector('p');
+                var existingText = recommendationsText.innerHTML;
+
+                var newRecommendations = data.map(stock => `<span class="stock-name">${stock.mention}</span>`).filter(mention => mention);
+
+                if (newRecommendations.length > 0) {
+                    var recommendationSentence = isMain
+                        ? `According to ${source}, ${newRecommendations.join(', ')} have an outstanding prognosis and therefore recommend investing.`
+                        : `However, for ${newRecommendations.join(', ')} we predict a downfall and therefore do not recommend.`;
+
+                    recommendationsText.innerHTML = existingText + recommendationSentence + " ";
+                }
+            }
+        </script>
+    </body>
+
+</html>

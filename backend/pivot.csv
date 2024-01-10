@@ -1,0 +1,214 @@
+mention,source,time,compound
+msft,stockcharts,2023-11-07 10:01:35.688719,0.9985
+mdlz,stockcharts,2023-11-07 10:01:35.688719,0.9985
+xhb,stockcharts,2023-11-07 10:01:35.688719,0.9985
+ief,stockcharts,2023-11-07 10:01:35.688719,-0.8364
+nvda,stockcharts,2023-11-07 10:01:35.688719,0.9992
+xlp,stockcharts,2023-11-07 10:01:35.688719,0.9992
+xlre,stockcharts,2023-11-07 10:01:35.688719,0.9992
+xlu,stockcharts,2023-11-07 10:01:35.688719,0.9992
+xlc,stockcharts,2023-11-07 10:01:35.688719,0.9992
+xlf,stockcharts,2023-11-07 10:01:35.688719,0.9992
+xlk,stockcharts,2023-11-07 10:01:35.688719,0.9992
+btc,stockcharts,2023-11-07 10:01:35.688719,0.9942
+qqq,stockcharts,2023-11-07 10:01:35.688719,0.9824
+spy,stockcharts,2023-11-07 10:01:35.688719,0.7805
+oef,stockcharts,2023-11-07 10:01:35.688719,0.7805
+dia,stockcharts,2023-11-07 10:01:35.688719,0.7805
+$spx,stockcharts,2023-11-07 10:01:35.704344,0.9952
+$indu,stockcharts,2023-11-07 10:01:35.704344,0.9952
+$compq,stockcharts,2023-11-07 10:01:35.704344,0.9952
+$vix,stockcharts,2023-11-07 10:01:35.704344,0.9952
+tfc,stockcharts,2023-11-07 10:01:35.704344,0.9952
+mtb,stockcharts,2023-11-07 10:01:35.704344,0.9952
+fhn,stockcharts,2023-11-07 10:01:35.704344,0.9952
+zion,stockcharts,2023-11-07 10:01:35.704344,0.9952
+wal,stockcharts,2023-11-07 10:01:35.704344,0.9952
+vrt,stockcharts,2023-11-07 10:01:35.704344,0.9952
+pltr,stockcharts,2023-11-07 10:01:35.704344,0.9952
+app,stockcharts,2023-11-07 10:01:35.704344,0.9952
+edu,stockcharts,2023-11-07 10:01:35.704344,0.9952
+splk,stockcharts,2023-11-07 10:01:35.704344,0.9952
+dis,stockcharts,2023-11-07 10:01:35.704344,0.9952
+wbd,stockcharts,2023-11-07 10:01:35.704344,0.9952
+bntx,stockcharts,2023-11-07 10:01:35.704344,0.9952
+hgv,stockcharts,2023-11-07 10:01:35.704344,0.9952
+gild,stockcharts,2023-11-07 10:01:35.704344,0.9952
+hood,stockcharts,2023-11-07 10:01:35.704344,0.9952
+sbux,stockcharts,2023-11-07 10:01:35.704344,0.4019
+shop,stockcharts,2023-11-07 10:01:35.704344,0.4019
+ci,stockcharts,2023-11-07 10:01:35.704344,0.4019
+aapl,stockcharts,2023-11-07 10:01:35.704344,0.4019
+coin,stockcharts,2023-11-07 10:01:35.704344,0.4019
+sq,stockcharts,2023-11-07 10:01:35.704344,0.4019
+nflx,stockcharts,2023-11-07 10:01:35.704344,0.6755
+mcd,stockcharts,2023-11-07 10:01:35.704344,0.6755
+amzn,stockcharts,2023-11-07 10:01:35.704344,0.9971
+wmt,stockcharts,2023-11-07 10:01:35.704344,0.9971
+cost,stockcharts,2023-11-07 10:01:35.704344,0.9971
+tgt,stockcharts,2023-11-07 10:01:35.704344,0.9971
+spx,stockcharts,2023-11-07 10:01:35.704344,0.7906
+vix,stockcharts,2023-11-07 10:01:35.704344,0.7906
+xlk,stockcharts,2023-11-07 10:01:35.704344,0.7906
+googl,BBC,2023-11-07 10:17:16.805384,0.34
+work,WSJ,2023-11-07 10:21:38.682222,0.0
+tsla,WSJ,2023-11-07 10:21:38.690024,0.0
+fb,WSJ,2023-11-07 10:21:38.691299,0.34
+maersk,WSJ,2023-11-07 10:21:38.691299,-0.5106
+msft,WSJ,2023-11-07 10:21:38.691299,0.5719
+amzn,WSJ,2023-11-07 10:21:38.691299,0.5719
+googl,WSJ,2023-11-07 10:21:38.691299,0.5719
+cvs,WSJ,2023-11-07 10:21:38.691299,0.128
+wba,WSJ,2023-11-07 10:21:38.691299,0.128
+svb financial group (sivb),CNN,2023-11-07 10:25:28.994540,-0.4404
+nke,CNN,2023-11-07 10:25:29.002029,0.4404
+infy,CNN / Business and Economis,2023-11-07 10:26:24.128694,-0.5267
+aapl,CNN / Business and Economis,2023-11-07 10:26:24.128694,0.5423
+vz,CNN / Business and Economis,2023-11-07 10:26:24.135497,-0.7469
+tsla,CNN / Business and Economis,2023-11-07 10:26:24.136575,0.4215
+uber,CNN / Business and Economis,2023-11-07 10:26:24.136575,0.2023
+aapl,CNN / Business and Economis,2023-11-07 10:26:24.136575,-0.4767
+shldq,CNN / Business and Economis,2023-11-07 10:26:24.136575,0.0
+nke,CNN / Business and Economis,2023-11-07 10:26:24.136575,0.128
+twx,CNN / Business and Economis,2023-11-07 10:26:24.136575,0.2023
+dd,Marketwatch / Stocks to watch,2023-11-07 10:28:27.503737,0.5994
+nke,Marketwatch / Stocks to watch,2023-11-07 10:28:27.503737,0.5994
+kbh,Marketwatch / Stocks to watch,2023-11-07 10:28:27.503737,0.5994
+bbby,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+gpro,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+nke,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+googl,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.7845
+bks,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.7845
+wec,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5859
+ge,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5859
+swbi,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+fdo,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+bbry,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+orcl,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+kr,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+fdx,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+jbl,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+rht,Marketwatch / Stocks to watch,2023-11-07 10:28:27.506424,0.5994
+cov,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+mdt,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+layn,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+kfy,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+intc,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+lulu,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+fnsr,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+tgt,Marketwatch / Stocks to watch,2023-11-07 10:28:27.512596,0.5994
+intc,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.747345,0.7096
+gt,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.747345,0.9579
+ayx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.4404
+trip,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.9535
+sanm,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.9477
+hims,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.6908
+tdc,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.8779
+comp,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.9601
+djia,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.9601
+we,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,-0.5106
+spce,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.8442
+spx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.755626,0.8442
+amc,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.9657
+cnk,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.9657
+msft,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.891
+nrg,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.6908
+xlu,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.6908
+djia,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.9657
+comp,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.9657
+pep,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.7184
+dis,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.7184
+c,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,-0.476
+hgv,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.9786
+bvh,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.9786
+algn,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.4678
+spx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.763665,0.4678
+bmbl,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.771445,0.5994
+crm,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.771445,0.5994
+ostk,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.771445,0.8442
+byon,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.771445,0.8442
+frpt,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.9246
+bntx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.6908
+pfe,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.6908
+sbux,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.872
+ogi,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.9618
+uk:bats,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.9618
+thcx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.9618
+crgx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.6371
+ipo,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.6371
+dish,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.7506
+aig,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.8126
+crbg,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.8126
+gs,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.8126
+jpm,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.8126
+spx,Marketwatch / MarketPulse (up-to-the-minute market updates),2023-11-07 10:29:45.772448,0.8126
+indu,stockcharts,2023-11-27 17:19:08.010571,0.9975
+nke,stockcharts,2023-11-27 17:19:08.010571,0.9975
+cat,stockcharts,2023-11-27 17:19:08.010571,0.9975
+msft,stockcharts,2023-11-27 17:19:08.010571,0.9975
+mrk,stockcharts,2023-11-27 17:19:08.010571,0.9975
+iwm,stockcharts,2023-11-27 17:19:08.011835,0.9894
+spy,stockcharts,2023-11-27 17:19:08.011835,0.9894
+xrt,stockcharts,2023-11-27 17:19:08.011835,0.9894
+iyt,stockcharts,2023-11-27 17:19:08.011835,0.9894
+smh,stockcharts,2023-11-27 17:19:08.011835,0.9894
+googl,stockcharts,2023-11-27 17:19:08.012422,0.4588
+nflx,stockcharts,2023-11-27 17:19:08.012422,0.4588
+spot,stockcharts,2023-11-27 17:19:08.012422,0.4588
+nvda,stockcharts,2023-11-27 17:19:08.012422,0.4588
+tsla,stockcharts,2023-11-27 17:19:08.012422,0.4588
+$indu,stockcharts,2023-11-27 17:19:08.013043,0.9977
+$spx,stockcharts,2023-11-27 17:19:08.013043,0.9977
+$compq,stockcharts,2023-11-27 17:19:08.013043,0.9977
+$sml,stockcharts,2023-11-27 17:19:08.013043,0.9977
+$mid,stockcharts,2023-11-27 17:19:08.013043,0.9977
+$tnx,stockcharts,2023-11-27 17:19:08.013043,0.9977
+tlt,stockcharts,2023-11-27 17:19:08.013043,0.9977
+$vix,stockcharts,2023-11-27 17:19:08.013043,0.9977
+amzn,stockcharts,2023-11-27 17:19:08.013043,0.9977
+gps,stockcharts,2023-11-27 17:19:08.013043,0.9977
+rost,stockcharts,2023-11-27 17:19:08.013043,0.9977
+tgt,stockcharts,2023-11-27 17:19:08.013043,0.9977
+wmt,stockcharts,2023-11-27 17:19:08.013043,0.9977
+nvda,stockcharts,2023-11-27 17:19:08.013043,0.9977
+spx,stockcharts,2023-11-27 17:19:08.013634,0.6761
+gdx,stockcharts,2023-11-27 17:19:08.013634,0.6761
+gps,stockcharts,2023-11-27 17:19:08.015893,0.9818
+dba,stockcharts,2023-11-27 17:19:08.017698,0.9292
+dbc,stockcharts,2023-11-27 17:19:08.017698,0.9292
+coin,stockcharts,2023-11-27 17:19:08.017698,0.9292
+spy,stockcharts,2023-11-27 17:19:08.017698,0.9292
+iwm,stockcharts,2023-11-27 17:19:08.017698,0.9292
+dia,stockcharts,2023-11-27 17:19:08.017698,0.9292
+qqq,stockcharts,2023-11-27 17:19:08.017698,0.9292
+kre,stockcharts,2023-11-27 17:19:08.017698,0.9292
+smh,stockcharts,2023-11-27 17:19:08.017698,0.9292
+iyt,stockcharts,2023-11-27 17:19:08.017698,0.9292
+ibb,stockcharts,2023-11-27 17:19:08.017698,0.9292
+xrt,stockcharts,2023-11-27 17:19:08.017698,0.9292
+tsla,stockcharts,2023-11-27 17:19:08.018580,0.7096
+pltr,stockcharts,2023-11-27 17:19:08.019488,0.9469
+iwm,stockcharts,2023-11-27 17:19:08.020957,0.9998
+mdy,stockcharts,2023-11-27 17:19:08.020957,0.9998
+xlre,stockcharts,2023-11-27 17:19:08.020957,0.9998
+xlu,stockcharts,2023-11-27 17:19:08.020957,0.9998
+xly,stockcharts,2023-11-27 17:19:08.020957,0.9998
+xlb,stockcharts,2023-11-27 17:19:08.020957,0.9998
+xle,stockcharts,2023-11-27 17:19:08.020957,0.9998
+xlv,stockcharts,2023-11-27 17:19:08.020957,0.9998
+gps,stockcharts,2023-11-27 17:19:08.020957,0.9998
+dwcree,stockcharts,2023-11-27 17:19:08.020957,0.9998
+djusra,stockcharts,2023-11-27 17:19:08.020957,0.9998
+djusib,stockcharts,2023-11-27 17:19:08.020957,0.9998
+djusrd,stockcharts,2023-11-27 17:19:08.020957,0.9998
+djusmf,stockcharts,2023-11-27 17:19:08.020957,0.9998
+djushn,stockcharts,2023-11-27 17:19:08.020957,0.9998
+stx,stockcharts,2023-11-27 17:19:08.020957,0.9998
+wdc,stockcharts,2023-11-27 17:19:08.020957,0.9998
+nvda,stockcharts,2023-11-27 17:19:08.020957,0.9998
+tnx,stockcharts,2023-11-27 17:19:08.021948,0.9994
+xhb,stockcharts,2023-11-27 17:19:08.021948,0.9994
+qqq,stockcharts,2023-11-27 17:19:08.021948,0.9994
+msft,stockcharts,2023-11-27 17:19:08.021948,0.9994
+botz,stockcharts,2023-11-27 17:19:08.021948,0.9994
+remx,stockcharts,2023-11-27 17:19:08.021948,0.9994
